@@ -1,0 +1,22 @@
+{
+  "name": "electron-notes",
+  "version": "1.0.0",
+  "description": "electron-notes",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuyannus/electron-notes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuyannus/electron-notes/issues"
+  },
+  "homepage": "https://github.com/xuyannus/electron-notes#readme",
+  "dependencies": {
+    "electron": "^5.0.4"
+  }
+}
