@@ -27,3 +27,7 @@ ipcRenderer.on('saved', (event, status) => {
     textWin.style.backgroundColor = ""
   }, 500)
 })
+
+ipcRenderer.on('save-clicked', (event, status) => {
+  ipcRenderer.send('save', textWin.value)
+})
