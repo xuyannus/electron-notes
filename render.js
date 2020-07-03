@@ -20,7 +20,7 @@ document.getElementById("button-save").onclick = function (button) {
 
 ipcRenderer.on('saved', (event, status) => {
   if (status.toLowerCase() === "succeed") {
-    textWin.style.backgroundColor = "#b2ff99"
+    textWin.style.backgroundColor = "#e6f2ff"
   }
 
   setTimeout(function () {
